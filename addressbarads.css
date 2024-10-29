@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title{
+	font-size:12px;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#000;
+	font-weight:bold;
+	width:800px;
+	/*float: left;*/
+	margin-bottom:10px;
+}
+.lable1{
+	color:#000;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+	
+}
+.lable{
+	color:#21759B;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+	}
+.lable a{
+	color:#21759B;
+	text-decoration:none;
+	background:url(images/qus.png) no-repeat right 4px;
+	padding:3px 25px 0 0;
+	float:right;
+	margin:3px 3px 0 0;
+}
+.lable a:hover{
+	color:#d54e21;
+	text-decoration:underline;
+}
+.textFild{
+	border-radius:5px !important;
+	background:#FFF !important;
+	border:1px solid #bcbcbc !important;
+	height: auto; padding: 7px 5px; width: 292px;
+	
+}
+.textArea{
+	width:325px !important;
+	padding:5px 5px !important;
+	border-radius:5px !important;
+	background:#FFF !important;
+	border:1px solid #bcbcbc !important;
+}
+.saveButton{
+	width:84px !important;
+	padding:3px !important;
+	background:#21759B !important;
+	border-radius:5px !important;
+	font-size:13px;
+	font-family:sans-serif !important;
+	color:#FFF !important;
+	text-align:center !important;
+	cursor:pointer;
+	margin:10px 0;
+}
+.saveButton:hover{
+	background:#d54e21 !important;	
+}
+.greenMsg{
+	background:#e3fbd1;   
+	border-radius:3px;
+	border:1px solid #74b844;
+	margin: 5px 15px 5px 0;
+    padding: 0 0.6em;
+	font-size:12px;
+	color:#006e00;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+/*	line-height:33px;*/
+	font-weight:bold;
+}
+.redMsg{
+	background:#ffcdcd;   
+	border-radius:3px;
+	border:1px solid #ff5858;
+	margin: 5px 15px 5px 0;
+    padding: 0 0.6em;
+	font-size:12px;
+	color:#FF0000;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	/*line-height:33px;*/
+	font-weight:bold;
+}
+.activeAds{
+	width:800px;
+	background:#f8f8f8;
+	border-radius: 10px; 
+	border:1px solid #c4c4c4;
+	margin:20px 0 0 0;
+	float:left;
+}
+.block{
+	clear:both;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.block li{
+	padding:5px 10px;
+	float:left;
+	text-align:center;
+	margin-right:10px;
+}
+.adsTitle{
+	float:left;
+	padding:5px;
+	font-size:12px;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#21759B;
+	font-weight:bold;	
+}
+.addNew{
+	width:70px !important;
+	padding:3px;
+	background:#21759B!important;
+	border-radius:5px ;
+	font-size:13px;
+	font-family:sans-serif ;
+	color:#FFF !important ;
+	text-align:center ;
+	cursor:pointer;
+	clear:both;
+	text-align:center;
+	margin:0 0 15px 15px;
+	float:left;
+	border:none!important;
+	text-decoration:none;
+}
+.addNew:hover{
+	background:#d54e21!important;
+	border:none !important;
+}
+.smile{
+	height:16px;
+	display:block;
+	background:url(images/smile.png) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin: 0 0px 0 8px;
+}
+.love{
+	height:16px;
+	display:block;
+	background: url(images/love.png) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	/*margin-right:15px;*/
+}
+.sune{
+	height:16px;
+	display:block;
+	background: url(images/sun.png) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-right:15px;
+}
+.star{
+	height:16px;
+	display:block;
+	background: url(images/star.png) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+}
+.explBox{
+	width:229px;
+	padding:10px;
+	background:#fcd5b4;
+	border:1px solid #f9bd8b;
+	border-radius:8px;
+	font-size:12px;
+	font:Arial, Helvetica, sans-serif;
+	color:#000;
+	display:block;
+	position:absolute;
+	top:0px;
+	left:-15px;
+	
+}
+.first{
+	width:100%;
+	position:relative;	
+}
+.circle {
+	height:16px;
+	display:block;
+	background: url(images/circle-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	/*margin-right:15px;*/
+}
+.leftwards  {
+	height:16px;
+	display:block;
+	background: url(images/leftwards-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+}
+.upwards {
+	height:16px;
+	display:block;
+	background: url(images/upwards-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+}
+.rightwards  {
+	height:16px;
+	display:block;
+	background: url(images/rightwards-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+}
+.downwards {
+	height:16px;
+	display:block;
+	background: url(images/downwards-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+}
+.leftRight {
+	height:16px;
+	display:block;
+	background: url(images/left-right-double.jpg) no-repeat left 5px;
+	padding:5px 0 0 28px;
+	float:left;
+}
+.phoneService {
+	height:15px;
+	display:block;
+	background: url(images/phone-service.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+}
+.leftPointing {
+	height:13px;
+	display:block;
+	background: url(images/left-pointing.jpg) no-repeat left 5px;
+	padding:8px 0 0 27px;
+	float:left;
+	margin-top:5px;
+}
+.rightPointing {
+	height:13px;
+	display:block;
+	background: url(images/right-pointing.jpg) no-repeat left 5px;
+	padding:5px 0 0 26px;
+	float:left;
+	margin-top:5px;
+}
+.yinYang {
+	height:17px;
+	display:block;
+	background: url(images/yin-yang.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
+.blackSmiley  {
+	height:17px;
+	display:block;
+	background: url(images/black-smiley.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
+.venus{
+	height:21px;
+	display:block;
+	background: url(images/venusfemale.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
+.mars  {
+	height:16px;
+	display:block;
+	background: url(images/marsmale-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
+.blackQueen {
+	height:15px;
+	display:block;
+	background:url(images/blackQueen.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
+.musical{
+	height:15px;
+	display:block;
+	background: url(images/musical-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
+.checkMark{
+	height:16px;
+	display:block;
+	background: url(images/checkmark-.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin:5px 0 0 5px;
+}
+.ballotX{
+	height:16px;
+	display:block;
+	background: url(images/ballotX.jpg) no-repeat left 5px;
+	padding:5px 0 0 22px;
+	float:left;
+	margin-top:5px;
+}
